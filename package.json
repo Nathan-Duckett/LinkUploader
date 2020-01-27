@@ -1,0 +1,26 @@
+{
+  "name": "linkuploader",
+  "version": "1.0.0",
+  "description": "Back-end to upload and temporarily store links to access from other devices",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-Duckett/LinkUploader.git"
+  },
+  "keywords": [
+    "link",
+    "copy"
+  ],
+  "author": "Nathan Duckett",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Nathan-Duckett/LinkUploader/issues"
+  },
+  "homepage": "https://github.com/Nathan-Duckett/LinkUploader#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

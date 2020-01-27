@@ -35,6 +35,7 @@ app.get("/clear", (req, res) => {
 app.get("/remove/:index", (req, res) => {
   let index = req.params.index;
   links.splice(index, 1);
+  res.send("Removed link at index " + index);
 });
 
 app.post("/add", (req, res) => {

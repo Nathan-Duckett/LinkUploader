@@ -17,6 +17,7 @@ app.get("/get", (req, res) => {
 
 app.post("/add", (req, res) => {
   links.push(req.body.link);
+  res.send("success");
 });
 
 // // catch 404 and forward to error handler

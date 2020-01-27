@@ -4,7 +4,7 @@
   "description": "Back-end to upload and temporarily store links to access from other devices",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

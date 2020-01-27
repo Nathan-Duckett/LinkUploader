@@ -17,7 +17,7 @@ app.get("/get/:index", (req, res) => {
   res.send(link);
 });
 
-app.get("/go:index", (req, res) => {
+app.get("/go/:index", (req, res) => {
   let index = req.params.index;
   let link = links[index];
   res.redirect(link);
